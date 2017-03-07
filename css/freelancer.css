@@ -165,6 +165,17 @@ header .intro-text .skills {
   color: white;
   border-color: #18BC9C;
 }
+
+.adjust_img {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .adjust_img {
+    margin-top: 40px;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
