@@ -120,12 +120,10 @@ html, body {
   font-size: 18px;
   font-weight: 700;
   color: #888;
-  border: 8px solid #444;
-  background: #eee;
 }
 
 .image.name { 
-  
+
 }
 .image.experience { 
 
@@ -282,10 +280,10 @@ html, body {
 }
 
 .image .nail {
-  top: -125px;
+  top: -90px;
   left: 50%;
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   margin-left: -4px;
   border-radius: 50%;
   background: #444;
@@ -294,8 +292,8 @@ html, body {
 .image .nail:before,
 .image .nail:after {
   top: -5px;
-  width: 1px;
-  height: 35px;
+  width: 2px;
+  height: 40px;
   background: #444;
 }
 
