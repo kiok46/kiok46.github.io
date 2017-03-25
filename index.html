@@ -1,286 +1,426 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
+  <meta charset="UTF-8">
+  <title>Kuldeep Singh | kiok46</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-    <title>Kiok46 | Kuldeep Singh</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/timeline.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  
 </head>
 
-<body id="page-top" class="index">
+<body>
+  <section>
+    <div class='szene'>
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Me</a>
-            </div>
+        <div class="wall">
+            <div class="box-center wall-hanging-container">
+                <div class='image name' style="width: 300px">
+                    Kuldeep Singh
+                    <div class='nail'></div>
+                </div>
+                <div class="image resume" style="width: 250px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="./resume/kuldeep_kiok46_resume.pdf" download >RESUME</a>
+                    <div id="resume-nail" class='nail'></div>
+                </div>
+                <div class="image contact" style="width: 200px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_contact">CONTACT</a>
+                    <div id="contact-nail" class='nail'></div>
+                </div>
+                <div class='image freelancing' style="width: 220px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_freelancing">FREELANCING</a>
+                    <div class='nail'></div>
+                </div>
+                <div class="image pycon" style="width: 200px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_pycon" >PYCON</a>
+                    <div class='nail'></div>
+                </div>
+                <div class="image gsoc" style="width: 200px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_gsoc" >GSoC'16</a>
+                    <div class='nail'></div>
+                </div>
+                <div class='image drdo' style="width: 200px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_drdo">DRDO</a>
+                    <div class='nail'></div>
+                </div>
+                <div class="image csi" style="width: 200px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_csi">CSI</a>
+                    <div class='nail'></div>
+                </div>
+                <div class="image kivy" style="width: 250px">
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_kivy">OPEN SOURCE</a>
+                    <div class='nail'></div>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#journey">Journey</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+        <div class="boy-container">
+            <div class="boy">
+                <div class='head'>
+                    <div class='eyes'></div>
+                </div>
+                <div class='body'></div>
+                <div class='table'></div>
+                <div class='laptop'></div>
+                <div class='mouse'></div>
+                <div class='notes'></div>
+                <div class='lamp'>
+                    <div class='top'></div>
+                </div>
+                <div class='headphones'></div>
+                <div class='trash'>
+                    <div class='paper p1'></div>
+                    <div class='paper p2'></div>
+                    <div class='paper p3'></div>
+                    <div class='paper p4'></div>
+                </div>
+            </div>
+        </div>
+  </section>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/me_medium.jpg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Kuldeep Singh</span>
-                        <button type="button" class="btn btn-xl" style="margin-top: 40px; margin-bottom: 40px; height: 50px; width: 150px; background-color: #2C3E50 ">
-                            <a target="_blank" href="./resume/kuldeep_kiok46_resume.pdf" download class="page-scroll">Download Resume</a>
-                        </button>
+
+<!--
+  Chatting Section
+-->
+
+
+  <section class="chat-area">
+    <div>
+        <h4 class="header light center" style="padding: 50px">Dream Interview</h2>
+        
+        <ul class="chat-thread" style="padding: 20px">
+            <li>Hello?</li>
+            <li>Hi! this is emma watson, I saw your resume and your profile looks interesting would you mind elaborating a bit?</li>
+            <li>OMG!, are you really? yes, sure.</li>
+            <li>Yep.</li>
+            <li>Sure. I have been doing freelancing for past 5 months.</li>
+            <li>What do you do?</li>
+            <li class="row">
+                <div>
+                    <img class="chat-image img-responsive col md6" src="images/0_freelancer.png" alt="">
+                    <div >
+                        <h4 class="light subheading">Freelancing</h4>
+                        <h5 class="light">2016 - Present</h5>
+                    </div>
+                    <div style="padding: 20px">
+                        <p class="light text-muted">"Learn, Earn & Live" is my moto. I mainly do software/application and API development in python. In last 5 months I have made myself familiar with following HTML, CSS, MaterializeCss, Javascript, Bootstrap, flask, JSX, React-Native, Postgre, PyMongo, more to come.</p>
+                        <br>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="#modal_contact">CONTACT</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Journey Section -->
-    <section class="success" id="journey">
-        <div class="container">
-            <div class="row" style="margin-bottom: 40px">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Journey</h2>
-                    <h3 class="section-subheading text-muted">. . .</h3>
+            </li>
+            <li>That's great!</li>
+            <li>Thanks</li>
+            <li>What did you do before freelancing?</li>
+            <li class="row">
+                <div >
+                  <img class="chat-image img-responsive col md6" src="images/6_python.svg.png" alt="">
+                    <div >
+                        <h4 class="light subheading">Pycon India lightning talk speaker.</h4>
+                        <h5 class="light">September 2016</h5>
+                        
+                    </div>
+                    <div >
+                        <p class="light text-muted">I became member of Kivy organisation, Kivy Garden and Maintainer of Plyer project after which I delivered a Lightning talk at Pycon India 2016 representing Kivy.</p>
+                        <br>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://in.linkedin.com/in/kuldeepsinghgrewal">LINKEDIN</a>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-responsive" src="img/about/freelancer.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2016-Present</h4>
-                                    <h4 class="subheading">Freelancing</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">"Learn & Earn". Applying this to my life I started freelancing. Python, C, Cython, Kivy, pygame, Software/App Development, Django, HTML, CSS, Javascript, Bootstrap, JSX, React-Native, sqlite, postgre, json, Hosting, more to come.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="adjust_img img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>September 2016</h4>
-                                    <h4 class="subheading">Pycon India lightning talk speaker.</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Delivered a lightning talk on Kivy organisation at pycon India 2016.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>May 2016 - August 2016</h4>
-                                    <h4 class="subheading">Google Summer of Code</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Worked with Python Software Foundation (Kivy - Sub organisation) on Plyer project.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2015-2016</h4>
-                                    <h4 class="subheading">Kivy</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Became member of kivy-garden(September 2015), Kivy & Plyer in November 2016.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>May 2015 - July 2015</h4>
-                                    <h4 class="subheading">Defence Research & Development organisation</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Internship at DRDO delhi in summers of 2015 and developed an application to manage debris collection after explosion.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/csi-logo.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2015-2016</h4>
-                                    <h4 class="subheading">Computer Society of India</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Became Technical Lead CSI student chapter at LNMIIT.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/Python.svg.png" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>April 2014</h4>
-                                    <h4 class="subheading">Introduction to Python</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">For the first time I took programming seriously and felt the real power of what a programmer could do. I instantly fell in love with python and wanted to know more about it.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/5.jpg" alt="">
-                                <h4>Noob
-                                    <br>starts!
-                                </h4>
-
-                            </div>
-
-                        </li>
-                    </ul>
+            </li>
+            <li>I am not sure I understand what kivy really is, would you mind explaining it to me?</li>
+            <li class="row">
+                
+                <div >
+                  <img class="chat-image img-responsive col md6" src="images/3_kivy.jpg" alt="">
+                    <div >
+                        <h4 class="light subheading">Kivy</h4>
+                        <h5 class="light">2015-2016</h5>
+                        
+                    </div>
+                    <div >
+                        <p class="light text-muted">Kivy is a framework which allows you to build cross-platform applications and softwares using python on mainly 5 platforms which include Windows, OSX, Linux, Android and iOS which is pretty awesome because you don't need to write different code for differet platforms. Kivy is write once run everywhere.</p>
+                        <br>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://github.com/kivy/kivy">KIVY</a>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://github.com/kivy-garden/">KIVY GARDEN</a>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://github.com/kivy/plyer">PLYER</a>
+                    </div>
                 </div>
+            </li>
+            <li>That's pretty impresive, can you tell me what you did in your GSoC project?</li>
+            <li class="row">
+                
+                <div>
+                  <img class="chat-image img-responsive col md6" src="images/2_gsoc.jpg" alt="">
+                    <div>
+                        <h4 class="light subheading">Google Summer of Code</h4>
+                        <h5 class="light">May 2016 - August 2016</h5>
+                        
+                    </div>
+                    <div >
+                        <p class="light text-muted"><b>Plyer</b> project is to provide an platform-independent API for platform dependent features in python. For example <a class="waves-effect waves-light" target="_blank" style="text-decoration: none;" href="https://github.com/kivy/plyer/blob/master/examples/call/main.py#L6">See Here</a>.  you need to `import call` and use call.makecall("7727935906") to make a call from mobile, and since this is independent and not restricted to kivy only, you can use it for anything you want.</p>
+                        <br>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://summerofcode.withgoogle.com/archive/2016/projects/5039570877939712/">GSoC Archive</a>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="http://github.com/kivy/plyer">Github</a>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://www.codementor.io/kiok46/plyer-platform-independent-compatibility-layer-6bz32colx">BLOG</a>
+                    </div>
+                </div>
+            </li>
+            <li>That sounds interesting, I will surly try it out someday.</li>
+            <li>You are more than welcome to. :)</li>
+            <li>And what did you do before doing GSoC?</li>
+            <li>Well, making yourself ready for a project as big as GSoC takes a lot of time, before this my only strength was Python as I tried way too many things with it starting from tkinter, wxpython, pygame, panda3D, blender, django, flask, and what not.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li>you there?</li>
+            <li>speechless...</li>
+            <li>lol</li>
+            <li>ok, you did some project at DRDO, what was that about?</li>
+            <li class="row">
+                
+                <div>
+                  <img class="chat-image img-responsive col md6" src="images/4_drdo.jpg" alt="">
+                    <div>
+                        <h4 class="light subheading">Defence Research & Development organisation</h4>
+                        <h5 class="light">May 2015 - July 2015</h5>
+                        
+                    </div>
+                    <div >
+                        <p class="light text-muted">Yes, in summers of 2015 I did my internship as DRDO where I developed a software that could collect data of the scenario after some bomb explosion, Something like you would have seen in IronMan movie where tony stark asks Jarvis to show the full scene where his friend got injured. but at a noob level I would say. haha</p>
+                        <br>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://in.linkedin.com/in/kuldeepsinghgrewal">LINKEDIN</a>
+                    </div>
+                </div>
+            </li>
+            <li>sounds cool.</li>
+            <li>Well, the work environment and culture at DRDO is pretty sweet.</li>
+            <li>Is that all?, oh CSI, what is that?</li>
+            <li class="row">
+                
+                <div>
+                  <img class="chat-image img-responsive col md6" src="images/5_csi.png" alt="">
+                    <div>
+                        <h4 class="light subheading">Computer Society of India</h4>
+                        <h5 class="light">2015-2016</h4>
+                        
+                    </div>
+                    <div >
+                        <p class="light text-muted">CSI is Computer society of India, I bacame member of CSI in May 2015 and soon became Technical Lead of CSI student chapter at LNMIIT where I mentored various projects and Internship programs.</p>
+                        <br>
+                        <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://in.linkedin.com/in/kuldeepsinghgrewal">LINKEDIN</a>
+                    </div>
+                </div>
+            </li>
+            <li>When did you start programming?</li>
+            <li class="row">
+                
+                <div>
+                  <img class="chat-image img-responsive col md6" src="images/6_python.svg.png" alt="">
+                    <div>
+                        <h4 class="light subheading">Introduced to Python</h4>
+                        <h5 class="light">May 2014 - Present</h5>
+                        
+                    </div>
+                    <div >
+                        <p class="light text-muted">For the first time I took programming seriously and felt the real power of what a programmer could do. I instantly fell in love with python and wanted to know more about it and you already know the rest.</p>
+                    </div>
+                </div>
+            </li>
+            <li>That's nice, I must say I am pretty impressed.</li>
+            <li>Thank you very much.</li>
+            <li>Hired.</li>
+        </ul>
+  </div>
+
+  </section>
+          <!-- Modal Structure -->
+          <div id="modal_gsoc" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-image" style="height: 300px">
+                  <img class="modal-image" src="images/2_gsoc.jpg">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 class="light">Google Summer of Code'16</h2>
+                    <p class="light">Got selected in Google Summer of Code 2016 under <b>Python Software Foundation (Kivy)</b>. Goal of Project Plyer was to provide an platform-independent API for platform dependent features in python.</p>
+                    <br>
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://summerofcode.withgoogle.com/archive/2016/projects/5039570877939712/">GSoC Archive</a>
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="http://github.com/kivy/plyer">Github</a>
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://www.codementor.io/kiok46/plyer-platform-independent-compatibility-layer-6bz32colx">BLOG</a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </section>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+            </div>
+          </div>
 
-    <section class="success" style="padding: 40px 0;">
-        <div  class="container-fluid">
-            <hr>
-        </div>
-    </section>
+          <div id="modal_drdo" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-image" style="height: 300px">
+                  <img class="modal-image" src="images/4_drdo.jpg">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 class="light">Defence Research and Development organisation</h2>
+                    <p class="light">Summer Internship from <b>May 2015- July 2015.</b> where I developed a software that could collect data of a given scenario after some bomb explosion, Something like you would have seen in IronMan movies where tony stark asks Jarvis to show the full scene where his friend got injured.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+            </div>
+          </div>
 
-    <!-- Footer -->
-    <footer class="text-center" id="contact">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-12">
-                        <h3>Where to find me?</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a target="_blank" href="https://www.facebook.com/kuldeep.grewal.125" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+          <div id="modal_freelancing" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-image" style="height: 300px">
+                  <img class="modal-image" src="images/0_freelancer.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 class="light">Freelancer</h2>
+                    <p class="light"><b>"Learn, Earn & Live"</b> is my moto. I mainly do software/application development in python. In last 5 months I have made myself familiar with following HTML, CSS, MaterializeCss, Javascript, Bootstrap, flask, JSX, React-Native, Postgre, PyMongo, web scrapping, more to come.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+            </div>
+          </div>
+
+          <div id="modal_kivy" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-image" style="height: 300px">
+                  <img class="modal-image" src="images/3_kivy.jpg">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 class="light">Kivy Organisation</h2>
+                    <p class="light"><b>Kivy organisation Member | Kivy Garden Member | Plyer project Maintainer</b><br>
+                    Kivy is a framework which allows you to build applications and softwares using python on mainly 5 platforms which include Windows, OSX, Linux, Android and iOS.</p>
+                    <br>
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://github.com/kivy/kivy">KIVY</a>
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://github.com/kivy-garden/">KIVY GARDEN</a>
+                    <a class="waves-effect waves-light btn" target="_blank" style="text-decoration: none;" href="https://github.com/kivy/plyer">PLYER</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+            </div>
+          </div>
+
+          <div id="modal_csi" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-image" style="height: 300px">
+                  <img class="modal-image" src="images/5_csi.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 class="light">Computer Society of India</h2>
+                    <p class="light">I bacame member of CSI in <b>May 2015</b> and soon became Technical Lead of CSI student chapter at LNMIIT where I mentored various projects  and Internship programs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+            </div>
+          </div>
+
+          <div id="modal_pycon" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-image" style="height: 300px">
+                  <img class="modal-image" src="images/6_python.svg.png">
+                </div>
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 class="light">Pycon India Lightning Talk Speaker</h2>
+                    <p class="light">I became member of Kivy organisation, Kivy Garden and Maintainer of Plyer project after which I delivered a Lightning talk at Pycon India 2016 representing Kivy. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
+            </div>
+          </div>
+
+          <div id="modal_contact" class="modal">
+            <div class="col s12 m7">
+              <div class="card horizontal">
+                <div class="card-stacked">
+                  <div class="card-content">
+                    <h4 style="text-align: center;">Contact Me!</h2>
+                        <ul class="contact-list row">
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="https://www.facebook.com/kuldeep.grewal.125" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-facebook"></i></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://plus.google.com/u/0/111507548193001084987" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="https://plus.google.com/u/0/111507548193001084987" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-google-plus"></i></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://github.com/kiok46" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="https://github.com/kiok46" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-github"></i></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://in.linkedin.com/in/kuldeepsinghgrewal" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="https://in.linkedin.com/in/kuldeepsinghgrewal" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-linkedin"></i></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="http://stackoverflow.com/users/3630386/kiok46" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="http://stackoverflow.com/users/3630386/kiok46" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-stack-overflow"></i></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://www.paypal.me/kiok46" class="btn-social btn-outline"><i class="fa fa-fw fa-paypal"></i></a>
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="https://www.paypal.me/kiok46" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-paypal"></i></a>
                             </li>
-                            <li>
-                                <a target="_blank" href="https://www.codementor.io/kiok46?utm_source=github&utm_medium=button&utm_term=kiok46&utm_campaign=github"><img src="https://cdn.codementor.io/badges/i_am_a_codementor_light.svg" alt="I am a codementor" style="max-width:100%"/></a>
+                            <li class="col s6 md3 l3">
+                                <a target="_blank" href="https://angel.co/kiok46" class="btn-floating btn-large waves-effect waves-light"><i class="contact-icons fa fa-fw fa-angellist"></i></a>
+                            </li>
+                            <li class="col s6 md3 l3">
+                                <a href="https://www.codementor.io/kiok46?utm_source=github&utm_medium=button&utm_term=kiok46&utm_campaign=github"><img src="https://cdn.codementor.io/badges/i_am_a_codementor_light.svg" alt="I am a codementor" style="max-width:100%"/></a>
                             </li>
                         </ul>
-                    </div>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        MIT License
-                    </div>
-                </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">CLOSE</a>
             </div>
-        </div>
-    </footer>
+          </div>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
     </div>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
-
 </html>
