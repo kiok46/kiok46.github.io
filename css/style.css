@@ -16,17 +16,8 @@
 html, body {
   height: 100%;
   overflow-x: hidden;
+  background: #ffffff;
 }
-
-p {
-  .light;
-}
-
-body {
-  
-  /*background-size: cover;*/
-}
-
 
 .box-center {
     position: absolute;
@@ -55,6 +46,11 @@ body {
 .wall-hanging-container {
     width: 85%;
     height: 80%;
+    position: relative !important;
+}
+
+.wall-hanging-container div {
+  position: relative !important;
 }
 
 .boy-container {
@@ -62,6 +58,11 @@ body {
     width: 100%;
     bottom: 0;
     height: 200px;
+    pointer-events: none;
+}
+
+.boy-container div {
+  position: absolute;
 }
 
 .chat-area {
@@ -111,7 +112,7 @@ body {
 }
 
 .image {
-  width: 120px;
+  width: 100%;
   height: 120px;
   line-height: 100px;
   text-align: center;
@@ -124,58 +125,78 @@ body {
 }
 
 .image.name { 
-    left: 400px;
-    bottom: 350px;
+  
 }
 .image.experience { 
-    left: 20px;
-    top: 0px;
+
 }
 .image.membership { 
-    right: 50px;
-    top: 10px;
+
 }
 .image.resume { 
-    left: 420px;
-    bottom: 235px;
+
 }
 #resume-nail{
-  display: none;
 }
 .image.contact { 
-    left: 450px;
-    bottom: 75px;
+
 }
 .image.drdo {
-    top: 275px;
-    left: 30px;
+
 }
 .image.freelancing {
-    bottom: 75px;
-    left: 90px;
+
 }
 .image.pycon {
-    top: 75px;
-    right: 215px;
+
 }
 .image.gsoc {
-    top: 75px;
-    left: 130px;
+
 }
 .image.kivy {
-    top: 275px;
-    right: 75px;
+
 }
 .image.csi { 
-    bottom: 75px;
-    right: 90px;
+
 }
 .image.basketball {
-    top: 510px;
-    right: 25px;
+
 }
 
 @media (max-width: 768px) {
+  #experience {
+    display: none;
+  }
+  #membership {
+    display: none;
+  }
+  #chat-section {
+    display: none;
+  }
+  .boy {
+    left: 20%;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #experience {
+    display: none;
+  }
+  #membership {
+    display: none;
+  }
+  #chat-section {
+    display: none;
+  }
+  .boy {
+    left: 20%;
+  }
+}
+
+/*
+@media (max-width: 1268px) {
   .image.name {
     display: none;
   }
@@ -208,14 +229,11 @@ body {
   display: none;
   }
   .image.resume {
-    top: 0px;
-    left: 60px;
-  }
-  .chat-area {
-    display: none;
+    top: 50%;
+    left: 50%;
   }
   .boy {
-    left: 0;
+    left: 50%;
   }
 }
 
@@ -253,9 +271,18 @@ body {
     bottom: 50px;
   }
 }
+*/
+
+.frame {
+    margin: 0;
+    margin-bottom: 30px !important;
+    padding: 0;
+    display: inline-block;
+    width: 90%;
+}
 
 .image .nail {
-  top: -30px;
+  top: -125px;
   left: 50%;
   width: 8px;
   height: 8px;
@@ -398,7 +425,7 @@ body {
 
 .lamp:before,
 .lamp:after {
-  z-index: -1;
+  z-index: 0;
   width: 6px;
   height: 80px;
   background: #ccc;
@@ -542,7 +569,6 @@ Chat thread's css.
 
 /* Chat - Avatar */
 .chat-thread li:before {
-  .light;
   position: absolute;
   top: 0;
   width: 50px;
@@ -553,7 +579,6 @@ Chat thread's css.
 
 /* Chat - Speech Bubble Arrow */
 .chat-thread li:after {
-  .light;
   position: absolute;
   top: 15px;
   content: '';
@@ -563,7 +588,6 @@ Chat thread's css.
 }
 
 .chat-thread li:nth-child(odd) {
-  .light;
   animation: show-chat-odd 0.15s 1 ease-in;
   -moz-animation: show-chat-odd 0.15s 1 ease-in;
   -webkit-animation: show-chat-odd 0.15s 1 ease-in;
@@ -573,19 +597,16 @@ Chat thread's css.
 }
 
 .chat-thread li:nth-child(odd):before {
-  .light;
   right: -80px;
   background-image: url("../images/me.jpg");
 }
 
 .chat-thread li:nth-child(odd):after {
-  .light;
   border-right: 15px solid transparent;
   right: -15px;
 }
 
 .chat-thread li:nth-child(even) {
-  .light;
   animation: show-chat-even 0.15s 1 ease-in;
   -moz-animation: show-chat-even 0.15s 1 ease-in;
   -webkit-animation: show-chat-even 0.15s 1 ease-in;
@@ -595,13 +616,11 @@ Chat thread's css.
 }
 
 .chat-thread li:nth-child(even):before {
-  .light;
   left: -80px;
   background-image: url("../images/emma_watson.jpg");
 }
 
 .chat-thread li:nth-child(even):after {
-  .light;
   border-left: 15px solid transparent;
   left: -15px;
 }
@@ -626,7 +645,7 @@ Chat thread's css.
 @media all and (max-width: 767px) {
   .chat-thread {
     width: 90%;
-    height: 4100px;
+    height: auto;
   }
 
   .chat-window {
@@ -638,7 +657,7 @@ Chat thread's css.
 @media all and (min-width: 768px) {
   .chat-thread {
     width: 80%;
-    height: 4100px;
+    height: auto;
   }
 
   .chat-window {
