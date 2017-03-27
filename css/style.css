@@ -270,6 +270,26 @@ html, body {
   }
 }
 */
+.bold {
+  font-weight: bold !important;
+}
+
+.scroll .nail{
+    top: 10px !important;
+    left: 65% !important;
+
+}
+
+.scroll i{
+  margin-left: -20px;
+}
+
+.scroll {
+    bottom: 130px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+}
 
 .frame {
     margin: 0;
@@ -489,7 +509,7 @@ html, body {
 }
 
 .trash .paper {
-  z-index: -1;
+  z-index: 0;
   width: 25px;
   height: 50px;
   border: 2px solid #555;
@@ -550,8 +570,6 @@ Chat thread's css.
   margin: 24px auto 0 auto;
   padding: 0 20px 0 0;
   list-style: none;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .chat-thread li {
@@ -559,10 +577,10 @@ Chat thread's css.
   clear: both;
   display: inline-block;
   padding: 16px 40px 16px 20px;
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
   font: 16px/20px 'Noto Sans', sans-serif;
   border-radius: 10px;
-  background-color: #eaf6ff;
+  background-color: #fff;
 }
 
 /* Chat - Avatar */
@@ -582,7 +600,7 @@ Chat thread's css.
   content: '';
   width: 0;
   height: 0;
-  border-top: 15px solid #eaf6ff;
+  border-top: 15px solid #000000;
 }
 
 .chat-thread li:nth-child(odd) {
