@@ -77,6 +77,7 @@ html, body {
     height: 100vh;
     overflow: hidden;
     background: url("../images/brick.jpg") repeat;
+    /*background: #d6aa33;*/
     background-size: cover;
 }
 
@@ -122,7 +123,7 @@ html, body {
   color: #888;
 }
 
-.image.name { 
+.image.name {
 
 }
 .image.experience { 
@@ -136,6 +137,7 @@ html, body {
 }
 #resume-nail{
 }
+
 .image.contact { 
 
 }
@@ -180,83 +182,6 @@ html, body {
   }
 }
 
-/*
-@media (max-width: 1268px) {
-  .image.name {
-    display: none;
-  }
-  .image.drdo {
-    display: none;
-  }
-  .image.freelancing {
-    display: none;
-  }
-  .image.gsoc {
-    display: none;
-  }
-  .image.kivy {
-    display: none;
-  }
-  .image.csi {
-    display: none;
-  }
-  .image.pycon {
-    display: none
-  }
-  .image.contact { 
-    top: 115px;
-    left: 80px;
-  }
-  #resume-nail{
-  display: inline;
-  }
-  #contact-nail{
-  display: none;
-  }
-  .image.resume {
-    top: 50%;
-    left: 50%;
-  }
-  .boy {
-    left: 50%;
-  }
-}
-
-@media (min-width: 1768px) {
-  .image.gsoc {
-    bottom: 50px;
-    left: 350px;
-  }
-  .image.drdo {
-      top: 325px;
-      left: 125px;
-  }
-  .image.csi { 
-      bottom: 75px;
-      right: 150px;
-  }
-  .image.name {
-    left: 550px;
-    bottom: 350px;
-  }
-  .image.resume {
-    left: 575px;
-    bottom: 235px;
-  }
-  .image.kivy {
-    top: 375px;
-    right: 175px;
-  }
-  .image.pycon {
-      top: 125px;
-      right: 325px;
-  }
-  .image.contact { 
-    left: 600px;
-    bottom: 50px;
-  }
-}
-*/
 .bold {
   font-weight: bold !important;
 }
