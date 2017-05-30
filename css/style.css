@@ -98,7 +98,32 @@ and (min-device-width : 320px)
 and (max-device-width : 660px){
 
     ul {
+        width: 285px;
+    }
+
+    .left-side {
+        top: 25%;
+    }
+
+    #freelancer-font {
+        font-size: 10;
+    }
+}
+
+@media only screen
+and (min-device-width : 400px)
+and (max-device-width : 660px){
+
+    ul {
         width: 350px;
+    }
+
+    .left-side {
+        top: 25%;
+    }
+
+    #freelancer-font {
+        font-size: 10;
     }
 }
 
